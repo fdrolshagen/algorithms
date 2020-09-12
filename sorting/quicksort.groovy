@@ -8,6 +8,7 @@ def quicksort(L) {
     def low = []
 
     L.eachWithIndex { e, i ->
+        countCompare++
         if((i != pivot) && (e <= L[pivot])){
             low << e
         }
@@ -30,9 +31,12 @@ def quicksort(L) {
     return sorted
 }
 
+countCompare = 0
 A = [13, 6, 7, 2, 9, 11, 4]
 W = [4, 5, 6, 7, 8, 9, 1]
 L = [97, 18]
 O = [4, 5, 3]
-E = [4]
-println "\n" + quicksort(A)
+E = [1, 1, 1, 1, 1, 1]
+
+println "\n" + quicksort(E)
+println countCompare

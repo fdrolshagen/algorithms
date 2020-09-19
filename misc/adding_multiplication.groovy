@@ -1,4 +1,4 @@
-//adding and multiplying a and b by only using +-1
+//adding and multiplying two non-negative integers by only using +-1
 
 def add(a, b) {
     if(b == 0) return a

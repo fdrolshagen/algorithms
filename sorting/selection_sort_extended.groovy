@@ -1,4 +1,4 @@
-def insertionSort(L) {
+def selectionSort(L) {
     int counterCompare = 0
     int counterSwap = 0
 
@@ -40,4 +40,4 @@ A = [13, 6, 7, 2, 9, 11, 4]
 W = [4, 5, 6, 7, 8, 9, 1]
 L = [97, 18]
 O = [4, 5, 3]
-println "\n" + insertionSort(O)
+println "\n" + selectionSort(A)

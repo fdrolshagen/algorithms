@@ -10,4 +10,3 @@ def fak(n){
 }
 
 println fak(3)
-
